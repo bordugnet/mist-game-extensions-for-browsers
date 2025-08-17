@@ -1,0 +1,251 @@
+﻿/* иконка персонажа на карте */
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/trip/map/obj/my_char.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/trip/map/obj/my_char.png")']
+ {
+	background-image: url('/images/mychar.png')!important;
+}
+
+/* battle */
+/* свой персонаж */
+#mapobj_self.mapobj {
+	background-image: url('/images/self.png')!important;
+}
+
+/* кулаки */
+/*красный*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_red.png")'] {
+	background-image: url("/images/fist_red.png")!important;
+	width: 43px!important;
+	height:43px!important;
+}
+/*синий*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_blue.png")'] {
+	background-image: url("/images/fist_blue.png")!important;
+}
+/*зеленый*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_green.png")'] {
+	background-image: url("/images/fist_green.png")!important;
+}
+/*черный*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/fist_black.png")'] {
+	background-image: url("/images/fist_black.png")!important;
+}
+/* мечник со щитом*/
+/*красный*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_red.png")'] {
+	background-image: url("/images/shield_sword_red.png")!important;
+	width: 43px!important;
+	height:43px!important;
+}
+/*синий*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_blue.png")'] {
+	background-image: url("/images/shield_sword_blue.png")!important;
+}
+/*зеленый*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_green.png")'] {
+	background-image: url("/images/shield_sword_green.png")!important;
+}
+/*черный*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_sword_black.png")'] {
+	background-image: url("/images/shield_sword_black.png")!important;
+}
+/* мечник без щита*/
+/*красный*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_red.png")'] {
+	background-image: url("/images/sword_red.png")!important;
+	width: 43px!important;
+	height:43px!important;
+}
+/*синий*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_blue.png")'] {
+	background-image: url("/images/sword_blue.png")!important;
+}
+/*зеленый*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_green.png")'] {
+	background-image: url("/images/sword_green.png")!important;
+}
+/*черный*/
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/sword_black.png")'] {
+	background-image: url("/images/sword_black.png")!important;
+}
+/* топор с щитом */
+/* красный */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_red.png")'] {
+	background-image: url("/images/shield_axe_red.png")!important;
+}
+/* синий */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_blue.png")'] {
+	background-image: url("/images/shield_axe_blue.png")!important;
+}
+/* зеленый */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_green.png")'] {
+	background-image: url("/images/shield_axe_green.png")!important;
+}
+/* черный */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/shield_axe_black.png")'] {
+	background-image: url("/images/shield_axe_black.png")!important;
+}
+/* топор без щита */
+/* красный */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_red.png")'] {
+	background-image: url("/images/axe_red.png")!important;
+}
+/* синий */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_blue.png")'] {
+	background-image: url("/images/axe_blue.png")!important;
+}
+/* зеленый */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_green.png")'] {
+	background-image: url("/images/axe_green.png")!important;
+}
+/* черный */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/axe_black.png")'] {
+	background-image: url("/images/axe_black.png")!important;
+}
+/* лук */
+/* красный */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_red.png")'] {
+	background-image: url("/images/bow_red.png")!important;
+}
+/* синий */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_blue.png")'] {
+	background-image: url("/images/bow_blue.png")!important;
+}
+/* зеленый */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_green.png")'] {
+	background-image: url("/images/bow_green.png")!important;
+}
+/* черный */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/bow_black.png")'] {
+	background-image: url("/images/bow_black.png")!important;
+}
+/* копье */
+/* красное */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_red.png")'] {
+	background-image: url("/images/spear_red.png")!important;
+}
+/* синее */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_blue.png")'] {
+	background-image: url("/images/spear_blue.png")!important;
+}
+/* зеленое */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_green.png")'] {
+	background-image: url("/images/spear_green.png")!important;
+}
+/* черное */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/spear_black.png")'] {
+	background-image: url("/images/spear_black.png")!important;
+}
+/* двура */
+/* красная */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_red.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_red.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_red.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_red.png")'] {
+	background-image: url("/images/claymore_red.png")!important;
+}
+/* синяя */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_blue.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_blue.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_blue.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_blue.png")'] {
+	background-image: url("/images/claymore_blue.png")!important;
+}
+/* зеленая */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_green.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_green.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_green.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_green.png")'] {
+	background-image: url("/images/claymore_green.png")!important;
+}
+/* черная */
+.mapobj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_black.png')"],
+.mapobj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_black.png")'],
+.map_obj[style*="background-image: url('//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_black.png')"],
+.map_obj[style*='background-image: url("//i.mist-game.ru/interface_v4//i/battle/size_1/players/claymore_black.png")'] {
+	background-image: url("/images/claymore_black.png")!important;
+}

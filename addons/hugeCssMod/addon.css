@@ -1,0 +1,63 @@
+/*Left user panel*/
+/* 3 вкладка */
+
+/* Main Interface */
+
+#self, #menu_bar, #location, #enemy {
+	filter: drop-shadow(2px 3px 4px black);
+}
+/* фикс кнопок уведомления */
+#menu_bar {
+	position:absolute;
+}
+img.map_cnv_bpic {
+	/* отряд духов и разбоев*/
+}
+/* map objects */
+#mapobj_self {
+
+}
+textarea:focus, input:focus, button:focus{
+	outline: none;
+}
+img.coin.coin_s {
+	/*content: url('images/silver_coin.png'); может быть перерисую монетки */
+}
+.sph_btn1:hover, .sph_btn2:hover, .sph_btn3:hover, .sph_btn4:hover {
+	filter: saturate(1.5);
+}
+/* замена изображения флага*/
+.canv_bg {
+	display:none;
+}
+.ctop::after {
+	content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-image: url('/images/canv.jpg');
+    background-size: 236px 100%;
+    width: 236px;
+}
+.kb:nth-child(1) {
+    display: block;
+    margin-left: 9px;
+    margin-bottom: -8px;
+}
+.kb:nth-child(5) {
+    display: block;
+    margin-left: 9px;
+    margin-top: 1px;
+}
+
+.kiksblocks {
+    padding: 7px 3px 0px 3px;
+    position: relative;
+    top: -4px;
+    display: inline-block;
+}
+@media (min-width: 1600px) {
+	#battle_f + table .w700 {
+		width: 70%;
+	}
+}

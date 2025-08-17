@@ -1,0 +1,46 @@
+.zagorodRandomContainer {
+  text-shadow: #fc0 1px 0 10px;
+  position: absolute;
+  bottom: 27px;
+  right: 10px;
+  width: 170px;
+  text-align: center;
+  background: #704526;
+  padding: 1px 3px;
+  color: #989898ff;
+  border: 1px solid #704848;
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  z-index:99999999;
+}
+.zagorodRandomButton {
+
+}
+
+.zagorodRandomCoord {
+  background-color: #f3ecd4;
+  text-shadow: #fc0 1px 0 10px;
+  position: absolute;
+  bottom: 26px;
+  right: 196px;
+  width: 39px;
+  text-align: center;
+  padding: 0px 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  display: block;
+  z-index:99999999;
+}
+
+.clrancoorid {
+  background-color: #085a68;
+  font-weight: bold;
+  color: #ffb800; 
+  border: 1px solid #704848; 
+  z-index:99999999;
+}
+
+
+

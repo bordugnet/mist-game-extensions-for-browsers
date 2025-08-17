@@ -1,0 +1,7 @@
+body {
+	background: url(/images/top_panel_bgr.jpg);
+	/*cursor: url('images/mychar.png'), auto;	может быть сделаю кастомные курсоры */
+}
+#top {
+	background: url(/images/top_panel_bgr.jpg);
+}

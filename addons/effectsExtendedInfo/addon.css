@@ -1,0 +1,13 @@
+﻿.cnv_advanced_container {
+	display: flex;
+	align-items: center;
+}
+.cnv_dop_info {
+	margin-left: 10px;
+}
+.cnv_dop_info .green {
+	color: #3ede34;
+}
+.cnv_dop_info .blue {
+	color: #03d1ff;
+}

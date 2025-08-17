@@ -1,0 +1,44 @@
+.chatHistoryContainer {
+  text-shadow: #fc0 1px 0 10px;
+  position: absolute;
+  bottom: 8px;
+  right: 82px;
+  background-color: #704526;
+  padding: 1px 3px;
+  color: white;
+  border: 1px solid #7a532d;
+  cursor: pointer;
+  text-align: center;
+}
+.chatHistoryButton {
+
+}
+
+.logClearContainer {
+  text-shadow: #fc0 1px 0 10px;
+  position: absolute;
+  bottom: 8px;
+  right: 216px;
+  background-color: #704526;
+  padding: 1px 3px;
+  color: #fe8787;
+  border: 1px solid #7a532d;
+  cursor: pointer;
+}
+
+.catchMyNickContainer {
+  text-shadow: #fc0 1px 0 10px;
+  position: absolute;
+  bottom: 8px;
+  right: 4px;
+  background-color: #704526;
+  padding: 1px 3px;
+  color: #fe8787;
+  border: 1px solid #7a532d;
+  cursor: pointer;
+}
+.logClearButton {
+
+}
+
+

@@ -1,0 +1,11 @@
+﻿#skills_info {
+  position: absolute;
+  margin: 0;
+  left: 20px;
+}
+#skills_percentage {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 15px;
+}

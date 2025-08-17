@@ -1,0 +1,28 @@
+#dopleftbtns {
+    width: 52px;
+}
+#dopleftbtns .cbtn-dop {
+    float: left;
+    width: 26px;
+    height: 17px;
+    margin: 6px 0 0 0;
+    cursor: pointer;
+}
+
+.cbtn-dop.filter-clan-chat {
+    background: url('/images/clanchat.png');
+}
+.cbtn-dop.filter-alliance-chat {
+    background: url('/images/alliance_chat.png');
+}
+.cbtn-dop.filter-clan-chat.pressed {
+    background: url('/images/clanchat_pressed.png');
+}
+.cbtn-dop.filter-alliance-chat.pressed {
+    background: url('/images/alliance_chat_pressed.png');
+}
+.chat-clickable-coordinate {
+    cursor: pointer;
+    color: #0080d0;
+    text-decoration: underline;
+}

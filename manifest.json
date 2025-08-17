@@ -1,0 +1,91 @@
+{
+   "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "author": "Mist Game",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [
+      {
+         "all_frames": false,
+         "js": [
+            "js/libs/jq.js",
+            "script_v6.js"
+         ],
+         "matches": [
+            "https://world.mist-game.ru/"
+         ]
+      }
+   ],
+   "description": "Расширение интерфейса онлайн игры mist-game.ru",
+   "externally_connectable": {
+      "matches": [
+         "https://world.mist-game.ru/"
+      ]
+   },
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoHSPrijvGguuCh+qH091y2v9ZMJba4TpAd3+w6uM2bDIJWuPzGINFu1XP5SHNcI4hFUag0/a1SpAhYM/is2028e7TFaQH2+aNrjZFW2t4aRTcXT5exS6L0mmTCgZryctA5vpXqoTkU0QWq1Yh9j6mMa6BTCYKxcDyNImGMrPNSwVLyJ38u0TxhswbtT5Zk2BFluGi1Pgj7jvNApsRs/WLLjA0zci1cxzfCSZuz1dMfkFp2UahYhzo5vxCetf7cKFBwYGT+PBjSypRvHJ7erMF1m5oLOTdb1BKAuw519s/cU+Sq6bDbIb67r9jw5nMhpfHEFAavSUg9Mpvo3KBwftwwIDAQAB",
+   "manifest_version": 3,
+   "name": "Расширение для mist-game.ru",
+   "permissions": [
+      "storage"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1",
+   "web_accessible_resources": [
+      {
+         "extension_ids": [],
+         "matches": [
+            "https://world.mist-game.ru/*"
+         ],
+         "resources": [
+            "images/*.png",
+            "images/*.jpg",
+            "init_v2.js",            
+            "js/libs/require.js",
+            "addons/customBackground/addon.css",
+            "addons/effectsExtendedInfo/addon.js",
+            "addons/effectsExtendedInfo/addon.css",
+            "addons/extendedShedule/addon.js",
+            "addons/extendedShedule/addon.css",
+            "addons/hideLeftPanel/addon.js",
+            "addons/hideLeftPanel/addon.css",
+            "addons/hugeCssMod/addon.css",
+            "addons/newPlayerIcons/addon.css",
+            "addons/showOtAnalyzerLink/addon.js",
+            "addons/showSkillProgress/addon.js",
+            "addons/showSkillProgress/addon.css",
+            "addons/stashScrollToTopButton/addon.js",
+            "addons/stashScrollToTopButton/addon.css",
+            "addons/topMenuAchievementsLink/addon.js",
+            "addons/topMenuAchievementsLink/addon.css",
+            "addons/filterChat/addon.js",
+            "addons/filterChat/addon.css",
+            "addons/hpBar/addon.js",
+            "addons/hpBar/addon.css",
+            "addons/sysFunctions/addon.js",
+            "addons/sysFunctions/addon.css",
+            "addons/zagorodItems/addon.js",
+            "addons/zagorodItems/addon.css",
+            "addons/zagorodNPC/addon.js",
+            "addons/zagorodNPC/addon.css",
+            "addons/zagorodRandom/addon.js",
+            "addons/zagorodRandom/addon.css",
+            "addons/zagorodSound/addon.js",
+            "addons/zagorodSound/addon.css",
+            "addons/zagorodSound/sound.mp3",
+            "addons/zagorodSound/sound2.mp3",
+            "addons/chatHistory/addon.js",
+            "addons/chatHistory/addon.css",
+            "addons/zagorodAutobattle/addon.js",
+            "addons/zagorodAutobattle/addon.css"             
+         ]
+      }
+   ]
+}
