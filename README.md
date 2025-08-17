@@ -36,4 +36,4 @@
 Кнопка (![alt text]([image-9.png](https://www.mediafire.com/view/7i4eqwrwegx4ojp/mist-demo.gif/file))) включает/отключает звук если персонаж нашел находку (для ввода каптчи или взаимодействия с НПС), кнопка (![alt text](image-10.png)) служит для очистки истории чата, так как он хранится в кеш браузера и постоянно загружается заново при заходе в игру. Самоочистка происходит при достижении 5000 сообщений.
 
 ДЕМОНСТРАЦИЯ
-https://jumpshare.com/share/3CFo0AH7vGvOmNKF3Xg3
+https://jumpshare.com/share/tXdjbjB0JhJLYP6LyedN
