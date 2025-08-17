@@ -1,6 +1,6 @@
 <h2>Установка расширения в Google Chrome/Opera/Firefox браузерах</h2>
 
-1. Скачиваем .zip архив
+1. Скачиваем .zip архив https://github.com/bordugnet/mist-game-extensions-for-browsers/releases/tag/mist-game-extensions-for-browsers
 2. Распаковываем содержимое архива в любой каталог на компьютере
 3. В браузере в новой вкладке открываем [chrome://extensions/](chrome://extensions/)
 4. В правом верхнем углу включаем режим разработчика
